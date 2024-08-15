@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terror Analógico</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1a1a1a;
+            padding: 20px;
+            text-align: center;
+            font-size: 2em;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            padding: 20px;
+        }
+        .video {
+            margin: 20px 0;
+        }
+        footer {
+            background-color: #1a1a1a;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid white;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        form {
+            margin-top: 20px;
+        }
+        input[type="email"] {
+            padding: 10px;
+            font-size: 1em;
+            border: none;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+        input[type="submit"] {
+            padding: 10px;
+            font-size: 1em;
+            background-color: #555;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #777;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Terror Analógico
+    </header>
+    <nav>
+        <a href="#home">Inicio</a>
+        <a href="#videos">Videos</a>
+        <a href="#articulos">Artículos</a>
+    </nav>
+    <div class="content" id="home">
+        <h2>Bienvenidos a la página de Terror Analógico</h2>
+        <div class="center">
+            <img src="Terror1.webp" alt="Imagen de terror" style="width:100%;max-width:600px;">
+        </div>
+        <p>Explora los misterios y horrores del terror analógico. Desde videos espeluznantes hasta artículos intrigantes, sumérgete en un mundo de suspenso y miedo.</p>
+        <form action="#" method="POST">
+            <label for="email">Suscríbete a nuestro boletín:</label><br>
+            <input type="email" id="email" name="email" placeholder="Ingresa tu correo electrónico" required>
+            <input type="submit" value="Suscribirse">
+        </form>
+        <table>
+            <tr>
+                <th>Tipo de Terror</th>
+                <th>Descripción</th>
+                <th>Video</th>
+            </tr>
+            <tr>
+                <td>Casos Paranormales</td>
+                <td>Videos sobre eventos y casos paranormales.</td>
+                <td><a href="https://www.youtube.com/watch?v=cz29TdGxsYc&t=539s" target="_blank">Ver Video</a></td>
+            </tr>
+            <tr>
+                <td>Terror Analógico</td>
+                <td>Videos con estética y temática de terror analógico.</td>
+                <td><a href="https://www.youtube.com/watch?v=c9dWcbvzhpc&t=945s" target="_blank">Ver Video</a></td>
+            </tr>
+            <tr>
+                <td>Criptología</td>
+                <td>Videos sobre criaturas y misterios criptozoológicos.</td>
+                <td><a href="https://www.youtube.com/watch?v=MjOnkTP0KB0&t=133s" target="_blank">Ver Video</a></td>
+            </tr>
+        </table>
+    </div>
+    <div class="content" id="videos">
+        <h2>Videos de Terror Analógico serie: The Mandela Catalogue</h2>
+        <div class="video">
+            <h3>Volumen 1</h3>
+            <!-- Reemplaza el siguiente enlace con el link del video de YouTube -->
+            <iframe width="560" height="315" src="https://www.youtube.com/watch?v=C8d12w6pMos&list=PLoECV0MmKPpxQEYqMy2b_ICjeN2BSCI8w&index=3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="video">
+            <h3>Volumen 2</h3>
+            <!-- Reemplaza el siguiente enlace con el link del video de YouTube -->
+            <iframe width="560" height="315" src="https://www.youtube.com/watch?v=XuDMawgx5Mw&list=PLoECV0MmKPpxQEYqMy2b_ICjeN2BSCI8w&index=7" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="video">
+            <h3>Volumen 3</h3>
+            <!-- Reemplaza el siguiente enlace con el link del video de YouTube -->
+            <iframe width="560" height="315" src="https://www.youtube.com/watch?v=1jMFrVk2d_I&list=PLoECV0MmKPpxQEYqMy2b_ICjeN2BSCI8w&index=9" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <h3>Encuesta: ¿Cuál es tu serie de terror analógico favorita?</h3>
+<form>
+    <input type="radio" name="serie" value="Local 58"> Local 58<br>
+    <input type="radio" name="serie" value="Mandela Catalogue"> Mandela Catalogue<br>
+    <input type="radio" name="serie" value="Gemini Home Entertainment"> Gemini Home Entertainment<br>
+    <input type="radio" name="serie" value="Backrooms"> Backrooms<br>
+    <input type="submit" value="Votar">
+</form>
+<h2>Galería de Imágenes</h2>
+<div style="display:flex;flex-wrap:wrap;">
+    <img src="The_Mandela_Catalogue_logo.png" alt="Imagen 1" style="width:30%;margin:5px;">
+    <img src="Needlemouselogo.webp" alt="Imagen 2" style="width:30%;margin:5px;">
+    <img src="images.png" alt="Imagen 3" style="width:30%;margin:5px;">
+</div>
+
+    </div>
+    <div class="content" id="articulos">
+        <h2>Artículos sobre Terror Analógico</h2>
+        <article>
+            <h3>Concepto y Origen del Terror Analógico</h3>
+            <p>
+                El terror analógico se basa en recrear la textura y el estilo de las viejas cintas VHS, la televisión lineal y las emisiones de radio FM. Este subgénero surge de la técnica del "metraje encontrado" y se caracteriza por presentar situaciones perturbadoras a través de medios analógicos como televisores, radios y videocámaras. Sus raíces están en el terror cósmico de H.P. Lovecraft y en el programa de radio de Orson Welles, "La Guerra de los Mundos".
+            </p>
+            <p>Fuente: <a href="https://vanguardia.com.mx" target="_blank">Vanguardia</a></p>
+        </article>
+        <article>
+            <h3>Ejemplos y Series Populares</h3>
+            <p>
+                Algunos ejemplos destacados de terror analógico incluyen:
+                <ul>
+                    <li><strong>Local 58</strong>: Creado por Kris Straub, este canal de YouTube presenta transmisiones y programas que simulan ser parte de la señal de un canal público de televisión, generando una experiencia inmersiva y perturbadora.</li>
+                    <li><strong>The Mandela Catalogue</strong>: Esta serie utiliza cámaras de vigilancia y otros dispositivos analógicos para contar historias de horror de una manera fragmentada y caótica.</li>
+                    <li><strong>Gemini Home Entertainment</strong> y <strong>Backrooms</strong>: Estas series también destacan por su uso innovador del formato analógico para generar miedo, ofreciendo experiencias únicas a través de la narrativa visual y auditiva.</li>
+                </ul>
+            </p>
+            <p>Fuente: <a href="https://vidaextra.com" target="_blank">Vida Extra</a> | <a href="https://mexmads.com" target="_blank">MexMads</a></p>
+        </article>
+        <article>
+            <h3>Estilo Narrativo y Técnica</h3>
+            <p>
+                El terror analógico utiliza narrativas ambiguas que mezclan realidad y ficción, creando una inmersión total para el espectador. Este estilo se aleja de las narraciones tradicionales protagonizadas por personajes, enfocándose en describir eventos extraños y progresivamente más inquietantes, a menudo presentados como documentales o programas de televisión que parecen reales.
+            </p>
+            <p>Fuente: <a href="https://vanguardia.com.mx" target="_blank">Vanguardia</a></p>
+        </article>
+    </div>
+    <footer>
+        &copy; 2024 Terror Analógico. Todos los derechos reservados.
+    </footer>
+</body>
+</html>
